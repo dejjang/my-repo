@@ -19,5 +19,5 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ inputs.greeting }}"
+      - run: echo "${{ inputs.log-level }}"
 
